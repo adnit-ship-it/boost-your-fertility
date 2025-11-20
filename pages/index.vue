@@ -6,7 +6,7 @@
     <SectionsJourney />
     <SectionsCTA />
     <SectionsBeforeAfter />
-    <SectionsProducts />
+    <!-- <SectionsProducts /> -->
     <SectionsFAQ />
     <SectionsIntakeForm />
   </div>
