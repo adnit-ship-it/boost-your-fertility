@@ -63,7 +63,7 @@
       ]
     },
     "discover": {
-      "show": true,
+      "show": false,
       "title": "Discover Our Products",
       "subtitle": "Lose Weight Today",
       "shippingInfo": "Free Shipping. Fast Delivery.",
