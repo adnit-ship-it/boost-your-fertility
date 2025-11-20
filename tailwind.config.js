@@ -15,7 +15,7 @@ export default {
       colors: {
         // Dynamic colors from CSS custom properties (set by branding API)
         backgroundColor: '#E7DFDD',
-        bodyColor: '#4A4A4A',
+        bodyColor: '#000000',
         accentColor1: {
           DEFAULT: '#A239CA',
           50: 'color-mix(in srgb, #750021 50%, transparent)',
