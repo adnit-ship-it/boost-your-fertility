@@ -247,10 +247,10 @@
     },
     "journey": {
       "show": true,
-      "title": "Your Weight Loss Journey",
+      "title": "Your Journey to Overcome Infertility",
       "steps": [
         {
-          "title": "Case Created",
+          "title": "Virtual Advocate Consult",
           "subtext": [
             "Fill out the form",
             "and get excited!"
@@ -261,7 +261,7 @@
           }
         },
         {
-          "title": "Virtual Consult",
+          "title": "Virtual Doctor Consult",
           "subtext": [
             "Get matched and",
             "meet with a provider"
@@ -272,7 +272,7 @@
           }
         },
         {
-          "title": "Patient Approved",
+          "title": "Treatment Pathway",
           "subtext": [
             "Receive customer service support",
             "along the way"
@@ -283,7 +283,7 @@
           }
         },
         {
-          "title": "Prescription Sent",
+          "title": "Treatment Monitoring",
           "subtext": [
             "Fast and free shipping",
             "and delivery"
