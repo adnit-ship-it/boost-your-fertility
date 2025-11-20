@@ -1,7 +1,7 @@
 <template>
   <div class="pt-[83px] lg:pt-[68px] bg-backgroundColor">
     <SectionsHero />
-    <SectionsDiscover />
+    <SectionsDiscover v-if="discover?.show" />
     <SectionsTrustedBy center />
     <SectionsJourney />
     <SectionsCTA />
@@ -13,8 +13,13 @@
 </template>
 
 <script setup lang="ts">
-// CRM data is already loaded in app.vue during SSR
-// No need to fetch it again here
+import { computed } from 'vue'
+import { useSiteTextStore } from '~/stores/siteText'
+
+const siteTextStore = useSiteTextStore()
+
+// Get discover section show status
+const discover = computed(() => siteTextStore.getHomeText()?.discover)
 </script>
 
 <style scoped>

@@ -1,5 +1,10 @@
 <template>
   <UiSectionWrapper class="relative text-black pt-24 lg:pt-32 pb-52">
+    <!-- Option 2: Top right corner of container (absolute within wrapper) -->
+    <div class="subbrand-indicator subbrand-top-right-container">
+      <span class="text-xs md:text-sm ">Brought to you by</span>
+      <img src="/assets/images/Boost-Fertility-pink.png" alt="Boost Fertility logo" class="h-8 md:h-10 w-auto mt-1" />
+    </div>
     <!-- Background Image -->
     <div class="absolute inset-0 bg-cover bg-no-repeat w-full h-full" :style="{
         backgroundImage: `url('${hero?.media?.background?.src || '/assets/images/brand/hero-bg.png'}')`,
@@ -7,9 +12,9 @@
       }" />
 
     <!-- Gradient Overlay -->
-    <div class="absolute w-full h-[256px] -bottom-[128px] z-[1]" style="
+    <!-- <div class="absolute w-full h-[256px] -bottom-[128px] z-[1]" style="
         background: linear-gradient(to bottom, rgba(98, 98, 98, 0) 0%, rgba(0, 0, 0, 1) 100%);
-      "></div>
+      "></div> -->
 
     <!-- Hand Vial Image - Bottom Right -->
     <div
@@ -200,5 +205,27 @@ const buttonFontSize = computed(() => (isMobile.value ? "16" : "24"));
 </script>
 
 <style scoped>
-/* Custom styles if needed */
+/* Subbrand Indicator Base Styles */
+.subbrand-indicator {
+  z-index: 40;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 4px;
+}
+
+/* Top right corner of container (absolute within wrapper) */
+.subbrand-top-right-container {
+  position: absolute;
+  top: 24px;
+  right: 20px;
+}
+
+/* Responsive adjustments */
+@media (min-width: 768px) {
+  .subbrand-top-right-container {
+    top: 32px;
+    right: 24px;
+  }
+}
 </style>

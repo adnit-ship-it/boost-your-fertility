@@ -134,6 +134,24 @@
               <p>{{ cta?.features.moneyBackGuarantee || 'Money Back Guarantee' }}</p>
             </div>
           </div>
+          <div class="mt-2 lg:mt-9 flex flex-col lg:flex-row gap-2 lg:gap-10">
+            <div v-motion :initial="{ opacity: 0, y: 32 }" :visible-once="{
+              opacity: 1,
+              y: 0,
+              transition: {
+                duration: 400,
+                type: 'ease-in',
+                stiffness: 250,
+                damping: 25,
+                mass: 1,
+                delay: 300,
+              },
+            }" class="flex gap-1 items-center text-[12px] md:text-[20px] lg:text-[24px]">
+              <img src="/assets/images/brand/check-star.svg" alt="star icon"
+                class="w-[18px] h-[18px] md:w-[24px] md:h-[24px] lg:w-[28px] lg:h-[28px]" />
+              <p>{{ cta?.features.lowCost || 'Low-cost treatments are available.' }}</p>
+            </div>
+          </div>
         </div>
       </div>
     </UiSectionContainer>
