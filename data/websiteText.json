@@ -252,8 +252,7 @@
         {
           "title": "Virtual Advocate Consult",
           "subtext": [
-            "Fill out the form",
-            "and get excited!"
+            "Meet your advocate from beginning to baby. Draft a budget."
           ],
           "icon": {
             "src": "/assets/images/case-created.svg",
@@ -263,8 +262,7 @@
         {
           "title": "Virtual Doctor Consult",
           "subtext": [
-            "Get matched and",
-            "meet with a provider"
+            "Get matched and meet with a Provider."
           ],
           "icon": {
             "src": "/assets/images/virtual-consult.svg",
@@ -274,8 +272,7 @@
         {
           "title": "Treatment Pathway",
           "subtext": [
-            "Receive customer service support",
-            "along the way"
+            "Identify the best treatment path and Provider."
           ],
           "icon": {
             "src": "/assets/images/patient-approved.svg",
@@ -285,23 +282,11 @@
         {
           "title": "Treatment Monitoring",
           "subtext": [
-            "Fast and free shipping",
-            "and delivery"
+            "Keeping you on track until you get to Baby."
           ],
           "icon": {
             "src": "/assets/images/prescription.svg",
             "alt": "Prescription sent icon"
-          }
-        },
-        {
-          "title": "Case Closed",
-          "subtext": [
-            "Start seeing results!",
-            "Look into other products"
-          ],
-          "icon": {
-            "src": "/assets/images/case-closed.svg",
-            "alt": "Case closed icon"
           }
         }
       ],
@@ -319,7 +304,7 @@
       "subtitle": "Understand all of the Myths and Misconceptions of Infertility\nTreatment",
       "stats": {
         "patients": "1000+ Patients",
-        "worldwideCare": "Talk to our Expert Advocates and Providers First"
+        "worldwideCare": "Worldwide Care"
       },
       "features": {
         "noHiddenFees": "It doesn’t have to cost $100,000",
