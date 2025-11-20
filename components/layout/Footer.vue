@@ -9,7 +9,7 @@
         <NuxtLink to="/">
           <div class="h-[32px] md:h-[40px] pb-1">
             <img
-              src="/assets/images/brand/logo-alt.svg"
+              src="/assets/images/brand/hero-img.png"
               :alt="common?.accessibility?.brandLogo || 'Brand Logo'"
               class="h-full w-full"
             />

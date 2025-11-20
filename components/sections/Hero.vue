@@ -46,7 +46,7 @@
               damping: 25,
               mass: 1,
             },
-          }" :src="hero?.media?.logo?.src || '/assets/images/brand/logo-alt.svg'" class="h-full w-full object-cover" :alt="hero?.media?.logo?.alt || 'Brand Logo'" />
+          }" :src="hero?.media?.logo?.src || '/assets/images/brand/hero-img.png'" class="h-full w-full object-cover" :alt="hero?.media?.logo?.alt || 'Brand Logo'" />
         </div>
 
         <h1 v-motion :initial="{ opacity: 0, y: 100 }" :visible-once="{
