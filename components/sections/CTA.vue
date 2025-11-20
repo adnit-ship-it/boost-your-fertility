@@ -34,7 +34,7 @@
               delay: 150,
             },
           }" class="pt-5 text-[16px] md:text-[20px] lg:text-[28px] font-regular">
-            {{ cta?.subtitle || 'See why Serenova is the #1 choice for GLP-1 Medications' }}
+            {{ cta?.subtitle || 'See why Boost Your Fertility is the trusted choice for male fertility enhancement' }}
           </p>
 
           <div class="flex flex-col lg:flex-row gap-2 lg:gap-7 pt-4 lg:pt-5">

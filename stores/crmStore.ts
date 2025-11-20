@@ -24,10 +24,10 @@ export const useCRMStore = defineStore('crm', {
   getters: {
     // These getters now just return the state values
     getHeroHeading: (state) => {
-      return state.heroHeading || 'Lose weight with GLP-1 medications.'
+      return state.heroHeading || 'Boost Your Fertility - Innovative Solutions for Male Fertility Enhancement'
     },
     getHeroSubheading: (state) => {
-      return state.heroSubheading || 'Start your journey with us today!'
+      return state.heroSubheading || 'The Pleiades Device - Non-Invasive, Scientifically-Backed'
     },
     
     // Product getters
@@ -98,10 +98,10 @@ export const useCRMStore = defineStore('crm', {
           const spans = tempDiv.querySelectorAll('span')
           
           if (spans.length > 0) {
-            this.heroHeading = spans[0]?.textContent?.trim() || 'Lose weight with GLP-1 medications.'
+            this.heroHeading = spans[0]?.textContent?.trim() || 'Boost Your Fertility - Innovative Solutions for Male Fertility Enhancement'
             
             if (spans.length > 1) {
-              this.heroSubheading = spans[1]?.textContent?.trim() || 'Start your journey with us today!'
+              this.heroSubheading = spans[1]?.textContent?.trim() || 'The Pleiades Device - Non-Invasive, Scientifically-Backed'
             }
           }
         } else {
@@ -121,8 +121,8 @@ export const useCRMStore = defineStore('crm', {
       } catch (error) {
         console.error('❌ Error parsing hero content:', error)
         // Keep fallback values if parsing fails
-        this.heroHeading = 'Lose weight with GLP-1 medications.'
-        this.heroSubheading = 'Start your journey with us today!'
+        this.heroHeading = 'Boost Your Fertility - Innovative Solutions for Male Fertility Enhancement'
+        this.heroSubheading = 'The Pleiades Device - Non-Invasive, Scientifically-Backed'
       }
     },
 
@@ -132,8 +132,8 @@ export const useCRMStore = defineStore('crm', {
       this.rawHtmlData = htmlString
       
       try {
-        let newHeading = 'Lose weight with GLP-1 medications.'
-        let newSubheading = 'Start your journey with us today!'
+        let newHeading = 'Boost Your Fertility - Innovative Solutions for Male Fertility Enhancement'
+        let newSubheading = 'The Pleiades Device - Non-Invasive, Scientifically-Backed'
         
         if (process.client && DOMPurify) {
           // Client-side: Use DOMPurify and DOM methods
@@ -148,10 +148,10 @@ export const useCRMStore = defineStore('crm', {
           const spans = tempDiv.querySelectorAll('span')
           
           if (spans.length > 0) {
-            newHeading = spans[0]?.textContent?.trim() || 'Lose weight with GLP-1 medications.'
+            newHeading = spans[0]?.textContent?.trim() || 'Boost Your Fertility - Innovative Solutions for Male Fertility Enhancement'
             
             if (spans.length > 1) {
-              newSubheading = spans[1]?.textContent?.trim() || 'Start your journey with us today!'
+              newSubheading = spans[1]?.textContent?.trim() || 'The Pleiades Device - Non-Invasive, Scientifically-Backed'
             }
           }
         } else {
@@ -174,8 +174,8 @@ export const useCRMStore = defineStore('crm', {
       } catch (error) {
         console.error('❌ Error parsing hero content:', error)
         // Keep fallback values if parsing fails
-        this.heroHeading = 'Lose weight with GLP-1 medications.'
-        this.heroSubheading = 'Start your journey with us today!'
+        this.heroHeading = 'Boost Your Fertility - Innovative Solutions for Male Fertility Enhancement'
+        this.heroSubheading = 'The Pleiades Device - Non-Invasive, Scientifically-Backed'
       }
     },
 

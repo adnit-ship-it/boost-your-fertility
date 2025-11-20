@@ -34,7 +34,7 @@ const testimonialData = [
   {
     image: "/assets/images/before-after/1.png",
     alt: common.value?.accessibility?.beforeAfterTransformation || "Before and after transformation",
-    testimonial: "The questions are to the point and easy to navigate. I'm able to voice my concerns if needed and ask questions of Serenova. They are quick to respond and keep me updated on my prescription.",
+    testimonial: "The questions are to the point and easy to navigate. I'm able to voice my concerns if needed and ask questions of Boost Your Fertility. They are quick to respond and keep me updated on my prescription.",
     name: "Anna K",
     stars: 4
   },

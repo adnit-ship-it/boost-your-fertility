@@ -1,6 +1,6 @@
-# Medivora Site
+# Boost Your Fertility Site
 
-A comprehensive Nuxt.js application for Medivora's weight loss platform, featuring an interactive intake form, product showcase, and patient journey visualization.
+A comprehensive Nuxt.js application for Boost Your Fertility's male fertility enhancement platform, featuring an interactive intake form, product showcase, and patient journey visualization.
 
 ## 🚀 Quick Start
 
@@ -26,7 +26,7 @@ npm run preview
 ## 📁 Project Structure
 
 ```
-medivora-site/
+boost-your-fertility-site/
 ├── app.vue                          # Main app component with CRM data fetching
 ├── nuxt.config.ts                   # Nuxt configuration and environment setup
 ├── tailwind.config.js               # Tailwind CSS configuration

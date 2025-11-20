@@ -4,17 +4,17 @@ export const reviews: Review[] = [
   {
     name: "Jamie L.",
     stars: 5,
-    review: "I feel so much more confident in my body thanks to Serenova.",
+    review: "I feel so much more confident in my body thanks to Boost Your Fertility.",
   },
   {
     name: "Sarah M.",
     stars: 5,
-    review: "The weight loss journey has been incredible. I've never felt better!",
+    review: "The fertility journey has been incredible. We finally have hope!",
   },
   {
     name: "Michael R.",
     stars: 5,
-    review: "Serenova changed my life. I'm down 30 pounds and feeling amazing.",
+    review: "Boost Your Fertility changed our lives. The results gave us renewed hope on our journey to parenthood.",
   },
   {
     name: "Emily T.",
@@ -49,7 +49,7 @@ export const reviews: Review[] = [
   {
     name: "Amanda F.",
     stars: 5,
-    review: "I can't believe how much my life has changed. Thank you Serenova!",
+    review: "I can't believe how much my life has changed. Thank you Boost Your Fertility!",
   },
   {
     name: "Jessica R.",

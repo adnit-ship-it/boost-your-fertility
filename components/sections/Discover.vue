@@ -46,7 +46,7 @@
           {{ discover?.title || 'Discover Your Best Self' }}
         </h2>
         <h3 class="text-[24px] md:text-[28px] lg:text-[40px]">
-          {{ discover?.subtitle || 'Lose Weight Today' }}
+          {{ discover?.subtitle || 'Improve Your Fertility Today' }}
         </h3>
       </div>
     </UiSectionContainer>
@@ -78,7 +78,7 @@ const productName = computed(() => {
     const rawName = crmStore.defaultProductBundle.products[0].name
     return DOMPurify.sanitize(rawName, { ALLOWED_TAGS: [] })
   }
-  return 'Serenova GLP-1 Injection' // fallback
+  return 'Boost Your Fertility - Pleiades Device' // fallback
 })
 
 const productPrice = computed(() => {
@@ -90,10 +90,10 @@ const productPrice = computed(() => {
 
 const productDescription = computed(() => {
   if (crmStore.defaultProductBundle) {
-    const rawDescription = crmStore.defaultProductBundle.description || 'Lose weight fast with our personalized medication.'
+    const rawDescription = crmStore.defaultProductBundle.description || 'Improve your fertility with our scientifically-backed, non-invasive Pleiades Device.'
     return DOMPurify.sanitize(rawDescription, { ALLOWED_TAGS: [] })
   }
-  return 'Lose weight fast with our personalized medication.' // fallback
+  return 'Improve your fertility with our scientifically-backed, non-invasive Pleiades Device.' // fallback
 })
 </script>
 

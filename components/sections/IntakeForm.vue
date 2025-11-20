@@ -15,7 +15,7 @@
             <div class="mt-10">
                 <h3 class="text-[20px] md:text-[32px] font-semibold">
                     Reach your goal weight
-                    <span class="text-accentColor1">fast <br />and easy with Serenova</span>
+                    <span class="text-accentColor1">fast <br />and easy with Boost Your Fertility</span>
                 </h3>
             </div>
             <div class="mt-6 md:pt-p flex flex-col gap-2">

@@ -67,7 +67,7 @@ const banner = computed(() => siteTextStore.getAboutText()?.banner);
                             delay: 150,
                         },
                     }" class="text-[24px] lg:text-[34px] font-light">
-                        {{ banner?.description || 'Serenova works to change the game in the health and wellness space allowing for certified medical care, made simple and effective.' }}
+                        {{ banner?.description || 'Boost Your Fertility works to change the game in the health and wellness space allowing for certified medical care, made simple and effective.' }}
                     </p>
                 </div>
                 <div class="w-[160px] lg:w-[288px] h-full">

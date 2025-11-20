@@ -14,7 +14,7 @@
         },
       }"
         class="w-full max-w-[1168px] font-defaultSerif text-[20px] md:text-[28px] lg:text-[32px] font-semibold text-black md:text-left">
-        {{ statistics?.title || 'Clinically Proven To Help You Lose Weight' }}
+        {{ statistics?.title || 'Scientifically Proven To Improve Male Fertility' }}
       </h2>
       <div class="flex gap-12">
         <div class="flex flex-col w-full gap-8">
@@ -32,7 +32,7 @@
           }"
             class="w-full md:w-[420px] h-[108px] bg-backgroundColor border-2 border-accentColor1 rounded-[12px] flex items-center justify-center flex-col shadow-xl">
             <h3 class="text-[28px] md:text-[36px] leading-[32px] md:leading-[38px] font-semibold">{{ statistics?.cards?.[0]?.value || '14.9%' }}</h3>
-            <p class="text-[20px] text-center leading-[24px]" v-html="statistics?.cards?.[0]?.description || 'Average reduction in body weight'"></p>
+            <p class="text-[20px] text-center leading-[24px]" v-html="statistics?.cards?.[0]?.description || 'Safe and effective approach<br>to fertility enhancement'"></p>
           </div>
           <div v-motion :initial="{ opacity: 0, y: 32 }" :visible-once="{
             opacity: 1,
@@ -47,7 +47,7 @@
             },
           }" class="w-full md:w-[420px] h-[108px] bg-backgroundColor border-2 border-accentColor1 rounded-[12px] flex items-center justify-center flex-col shadow-xl">
             <h3 class="text-[28px] md:text-[36px] leading-[32px] md:leading-[38px] font-semibold">{{ statistics?.cards?.[1]?.value || '6x' }}</h3>
-            <p class="text-[20px] text-center leading-[24px]" v-html="statistics?.cards?.[1]?.description || 'More weight loss than diet<br>and exercise alone'"></p>
+            <p class="text-[20px] text-center leading-[24px]" v-html="statistics?.cards?.[1]?.description || 'Scientifically-backed<br>to improve sperm quality'"></p>
           </div>
           <div v-motion :initial="{ opacity: 0, y: 32 }" :visible-once="{
             opacity: 1,
@@ -62,7 +62,7 @@
             },
           }" class="w-full md:w-[420px] h-[108px] bg-backgroundColor border-2 border-accentColor1 rounded-[12px] flex items-center justify-center flex-col shadow-xl">
             <h3 class="text-[28px] md:text-[36px] leading-[32px] md:leading-[38px] font-semibold">{{ statistics?.cards?.[2]?.value || '100%' }}</h3>
-            <p class="text-[20px] text-center leading-[24px]">{{ statistics?.cards?.[2]?.description || 'Online Personalized Support' }}</p>
+            <p class="text-[20px] text-center leading-[24px]">{{ statistics?.cards?.[2]?.description || 'Compassionate Support On Your Journey' }}</p>
           </div>
         </div>
         <img v-motion :initial="{ opacity: 0, y: 32 }" :visible-once="{
@@ -76,7 +76,7 @@
             mass: 1,
             delay: 150,
           },
-        }" :src="statistics?.media?.graph?.src || '/assets/images/wl-graph.png'" :alt="statistics?.media?.graph?.alt || 'weight loss graph'" class="hidden lg:block h-[388px] object-contain">
+        }" :src="statistics?.media?.graph?.src || '/assets/images/wl-graph.png'" :alt="statistics?.media?.graph?.alt || 'Fertility improvement progress'" class="hidden lg:block h-[388px] object-contain">
       </div>
     </UiSectionContainer>
   </UiSectionWrapper>

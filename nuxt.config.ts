@@ -35,8 +35,8 @@ export default defineNuxtConfig({
       isProduction,
 
       // Form configuration
-      formTitle: "Serenova Intake Form",
-      formDescription: "Serenova - Patient Intake Form for GLP-1 Program",
+      formTitle: "Boost Your Fertility Intake Form",
+      formDescription: "Boost Your Fertility - Patient Intake Form for Male Fertility Enhancement Program",
 
       // Client-side API configuration (safe to expose)
       stripePublishableKey: isDevelopment ? process.env.NUXT_STRIPE_PUBLISHABLE_KEY_STAGING : process.env.NUXT_STRIPE_PUBLISHABLE_KEY_PROD,

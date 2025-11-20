@@ -2,8 +2,8 @@
   "home": {
     "hero": {
       "show": true,
-      "heading": "Get Pregnant (on a Budget)\nEven if You are Struggling with Infertility",
-      "subheading": "Personalized GLP-1 Medication",
+      "heading": "Boost Your Fertility\nInnovative Solutions for Male Fertility Enhancement",
+      "subheading": "The Pleiades Device - Non-Invasive, Scientifically-Backed",
       "bulletPoints": {
         "trustedByExperts": "Trusted by experts",
         "provenResults": "Data-Driven Approach",
@@ -17,7 +17,7 @@
         },
         "foreground": {
           "src": "/assets/images/brand/hero-img.png",
-          "alt": "Hand holding a GLP-1 medication vial"
+          "alt": "Boost Fertility - Pleiades Device for male fertility enhancement"
         },
         "bulletIcon": {
           "src": "/assets/images/checkmark.svg",
@@ -25,7 +25,7 @@
         },
         "logo": {
           "src": "/assets/images/brand/logo.svg",
-          "alt": "Medivora logo"
+          "alt": "Boost Your Fertility logo"
         }
       }
     },
@@ -65,7 +65,7 @@
     "discover": {
       "show": true,
       "title": "Discover Our Products",
-      "subtitle": "Lose Weight Today",
+      "subtitle": "Improve Your Fertility Today",
       "shippingInfo": "Free Shipping. Fast Delivery.",
       "providerText": "Speak to a provider today!",
       "buyNowButton": "Buy Now",
@@ -122,17 +122,17 @@
         {
           "name": "Jamie L.",
           "stars": 5,
-          "review": "I feel so much more confident in my body thanks to Medivora."
+          "review": "I feel so much more confident in my body thanks to Boost Your Fertility."
         },
         {
           "name": "Sarah M.",
           "stars": 5,
-          "review": "The weight loss journey has been incredible. I've never felt better!"
+          "review": "The fertility journey has been incredible. We finally have hope!"
         },
         {
           "name": "Michael R.",
           "stars": 5,
-          "review": "Medivora changed my life. I'm down 30 pounds and feeling amazing."
+          "review": "Boost Your Fertility changed our lives. The results gave us renewed hope on our journey to parenthood."
         },
         {
           "name": "Emily T.",
@@ -167,7 +167,7 @@
         {
           "name": "Amanda F.",
           "stars": 5,
-          "review": "I can't believe how much my life has changed. Thank you Medivora!"
+          "review": "I can't believe how much my life has changed. Thank you Boost Your Fertility!"
         },
         {
           "name": "Jessica R.",
@@ -223,25 +223,25 @@
     },
     "statistics": {
       "show": true,
-      "title": "Clinically Proven To Help You Lose Weight",
+      "title": "Scientifically Proven To Improve Male Fertility",
       "cards": [
         {
-          "value": "14.9%",
-          "description": "Average reduction in body weight"
+          "value": "Non-Invasive",
+          "description": "Safe and effective approach\nto fertility enhancement"
         },
         {
-          "value": "6x",
-          "description": "More weight loss than diet\nand exercise alone"
+          "value": "Proven",
+          "description": "Scientifically-backed\nto improve sperm quality"
         },
         {
           "value": "100%",
-          "description": "Online Personalized Support"
+          "description": "Compassionate Support\nOn Your Journey"
         }
       ],
       "media": {
         "graph": {
           "src": "/assets/images/wl-graph.png",
-          "alt": "Weight loss progress graph"
+          "alt": "Fertility improvement progress"
         }
       }
     },
@@ -330,7 +330,7 @@
       "media": {
         "product": {
           "src": "/assets/images/products.png",
-          "alt": "Assortment of Medivora products"
+          "alt": "Assortment of Boost Your Fertility products"
         },
         "featureIcon": {
           "src": "/assets/images/checkmark-star.svg",
@@ -340,7 +340,7 @@
     },
     "beforeAfter": {
       "show": true,
-      "title": "Before & After Medivora",
+      "title": "Before & After Boost Your Fertility",
       "images": [
         {
           "src": "/assets/images/before-after-1.png",
@@ -358,8 +358,8 @@
     },
     "intakeForm": {
       "show": true,
-      "title": "Reach your goal weight",
-      "highlight": "fast and easy with Medivora",
+      "title": "Start Your Journey to Parenthood",
+      "highlight": "fast and easy with Boost Your Fertility",
       "fields": [
         {
           "label": "Name",
@@ -385,19 +385,19 @@
       "questions": [
         {
           "question": "How long is the process on average?",
-          "answer": "The entire process typically takes 2-3 weeks from initial consultation to receiving your medication. This includes the consultation, prescription review, and expedited delivery to your doorstep."
+          "answer": "The entire process typically takes 2-3 weeks from initial consultation to receiving your Pleiades Device. This includes the consultation, medical review, and expedited delivery to your doorstep."
         },
         {
           "question": "Are there any additional fees?",
-          "answer": "No hidden fees! Our transparent pricing includes everything: consultation, prescription, and expedited delivery. What you see is what you pay."
+          "answer": "No hidden fees! Our transparent pricing includes everything: consultation, device, and expedited delivery. What you see is what you pay."
         },
         {
           "question": "How is my provider selected?",
-          "answer": "We carefully match you with a licensed healthcare provider based on your medical history, preferences, and specific needs. All our providers are board-certified and experienced in weight loss management."
+          "answer": "We carefully match you with a licensed healthcare provider based on your medical history, preferences, and specific needs. All our providers are board-certified and experienced in male fertility and reproductive health."
         },
         {
-          "question": "Do GLP-1s actually work?",
-          "answer": "Yes! GLP-1 medications have been clinically proven to help with weight loss. Studies show patients typically lose 10-15% of their body weight when combined with lifestyle changes. Results vary by individual."
+          "question": "Does the Pleiades Device actually work?",
+          "answer": "Yes! The Pleiades Device is a scientifically-backed, non-invasive solution designed to improve sperm quality and overall fertility. Our approach combines advanced technology with compassionate care to support your journey to parenthood. Results vary by individual."
         }
       ]
     }
@@ -407,11 +407,11 @@
       "show": true,
       "title": "About Us",
       "subtitle": "Quality is our guarantee!",
-      "description": "Medivora works to change the game in the health and wellness space allowing for certified medical care, made simple and effective.",
+      "description": "Boost Fertility is a pioneering brand dedicated to providing innovative solutions for male fertility enhancement. Our flagship product, the Pleiades Device, offers a non-invasive, effective, and scientifically-backed approach to improving sperm quality and overall fertility. We combine advanced technology with compassionate care to support our customers on their journey to parenthood.",
       "media": {
         "image": {
           "src": "/assets/images/products-alt.png",
-          "alt": "Medivora product assortment"
+          "alt": "Boost Your Fertility product assortment"
         }
       }
     },
@@ -426,11 +426,11 @@
       },
       "support": {
         "title": "Unlimited 24/7 Support Included",
-        "description": "Medivora provides 24/7 access to a dedicated team of specialists, ensuring you have the support you need around the clock. With unlimited appointments, messaging and support, you can confidently reach out for guidance, ask questions, or address concerns at any time."
+        "description": "Boost Your Fertility provides 24/7 access to a dedicated team of specialists, ensuring you have the support you need around the clock. With unlimited appointments, messaging and support, you can confidently reach out for guidance, ask questions, or address concerns at any time."
       },
       "providers": {
         "title": "Hand Selected Providers",
-        "description": "Medivora physicians are here to guide you every step of the way, bringing both their expertise and genuine care to keep you supported.",
+        "description": "Boost Your Fertility physicians are here to guide you every step of the way, bringing both their expertise and genuine care to keep you supported.",
         "certification": "Certified doctors and clinicians"
       },
       "media": {
@@ -449,8 +449,8 @@
     "page": {
       "show": true,
       "title": "Explore Our Products",
-      "subtitle": "Personalized GLP-1 Medication",
-      "categoryButton": "Weight Loss"
+      "subtitle": "Male Fertility Enhancement Solutions",
+      "categoryButton": "Fertility"
     },
     "section": {
       "show": true,
