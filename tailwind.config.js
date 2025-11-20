@@ -24,6 +24,7 @@ export default {
       },
       fontFamily: {
         // Fonts automatically loaded from designTokens.json
+        sans: ["Lato", "Inter", "sans-serif"],
         headingFont: [designTokens.fonts.heading, "sans-serif"],
         bodyFont: [designTokens.fonts.body, "sans-serif"],
         defaultSerif: [designTokens.fonts.serif, "serif"],

@@ -15,8 +15,8 @@
     }
   },
   "fonts": {
-    "heading": "Inter",
-    "body": "Inter",
+    "heading": "Lato",
+    "body": "Lato",
     "serif": "DMSerifText-Regular"
   },
   "spacing": {

@@ -54,8 +54,9 @@
             damping: 25,
             mass: 1,
             delay: 50,
-          },
-        }" class="text-2xl md:text-3xl lg:text-[48px] font-bold text-bodyColor">
+          }
+        
+        }" class="text-2xl md:text-3xl lg:text-[48px] font-bold text-bodyColor " style="line-height: 1;">
           {{ hero?.heading || crmStore.getHeroHeading }}
         </h1>
 
@@ -90,7 +91,7 @@
           }" class="flex items-center h-[16px] md:h-[26px]">
             <img :src="hero?.media?.bulletIcon?.src || '/assets/images/brand/check.svg'" :alt="hero?.media?.bulletIcon?.alt || 'Checkmark'"
               class="w-[14px] h-[14px] md:w-[26px] md:h-[26px] mr-1 md:mr-3" />
-            <span class="text-[16px] md:text-[20px] lg:text-[24px] font-medium text-accentColor1">{{ hero?.bulletPoints.trustedByExperts || 'Trusted by experts' }}</span>
+            <span class="text-[16px] md:text-[20px] lg:text-[24px] font-medium text-black">{{ hero?.bulletPoints.trustedByExperts || 'Trusted by experts' }}</span>
           </li>
           <li v-motion :initial="{ opacity: 0, y: 100 }" :visible-once="{
             opacity: 1,
@@ -106,7 +107,7 @@
           }" class="flex items-center h-[16px] md:h-[26px]">
             <img :src="hero?.media?.bulletIcon?.src || '/assets/images/brand/check.svg'" :alt="hero?.media?.bulletIcon?.alt || 'Checkmark'"
               class="w-[14px] h-[14px] md:w-[26px] md:h-[26px] mr-1 md:mr-3" />
-            <span class="text-[16px] md:text-[20px] lg:text-[24px] font-medium text-accentColor1">{{ hero?.bulletPoints.provenResults || 'Proven results' }}</span>
+            <span class="text-[16px] md:text-[20px] lg:text-[24px] font-medium text-black">{{ hero?.bulletPoints.provenResults || 'Proven results' }}</span>
           </li>
           <li v-motion :initial="{ opacity: 0, y: 100 }" :visible-once="{
             opacity: 1,
@@ -122,7 +123,7 @@
           }" class="flex items-center h-[16px] md:h-[26px]">
             <img :src="hero?.media?.bulletIcon?.src || '/assets/images/brand/check.svg'" :alt="hero?.media?.bulletIcon?.alt || 'Checkmark'"
               class="w-[14px] h-[14px] md:w-[26px] md:h-[26px] mr-1 md:mr-3" />
-            <span class="text-[16px] md:text-[20px] lg:text-[24px] font-medium text-accentColor1">{{ hero?.bulletPoints.exceptionalCare || 'Exceptional care' }}</span>
+            <span class="text-[16px] md:text-[20px] lg:text-[24px] font-medium text-black">{{ hero?.bulletPoints.exceptionalCare || 'Exceptional care' }}</span>
           </li>
         </ul>
 
@@ -140,7 +141,7 @@
           },
         }" class="flex flex-col justify-end h-[50px] mt-7 lg:mt-5">
           <NuxtLink to="/consultation">
-            <UiButton background-color="accentColor2" text-color="white" :width="buttonWidth" :height="buttonHeight"
+            <UiButton background-color="accentColor1" text-color="white" :width="buttonWidth" :height="buttonHeight"
               :font-size="buttonFontSize">
               {{ hero?.ctaButton || 'Take the Assessment' }}
             </UiButton>
