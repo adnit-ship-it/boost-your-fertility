@@ -16,7 +16,7 @@
           </div>
         </NuxtLink>
       </div>
-      <div class="md:block h-[1px] mb-1.5 w-full mx-2 md:mx-5 flex-1 bg-[#0471F6]"></div>
+      <div class="md:block h-[1px] mb-1.5 w-full mx-2 md:mx-5 flex-1 bg-black"></div>
 
       <!-- Navigation buttons on the right -->
       <div class="flex items-center gap-x-2 md:gap-x-6">
