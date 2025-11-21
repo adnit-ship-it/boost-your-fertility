@@ -54,10 +54,10 @@
             delay: 50,
           }
         
-        }" class="text-2xl md:text-3xl lg:text-[40px] font-medium text-bodyColor whitespace-nowrap w-fit" style="line-height: 1.2;">
-          {{ hero?.heading || crmStore.getHeroHeading }}
+        }" class="text-2xl md:text-3xl lg:text-[40px] font-medium text-bodyColor w-fit whitespace-nowrap" style="line-height: 1.2;">
+          {{ hero?.heading || crmStore.getHeroHeading }}<br/>
+          <span class="text-xl md:text-2xl lg:text-[32px] whitespace-nowrap w-fit">Even if You are Struggling with Infertility</span>
         </h1>
-        <p class="text-lg md:text-xl lg:text-[30px]  text-bodyColor leading-none m-0 p-0  whitespace-nowrap w-fit">Even if You are Struggling with Infertility</p>
 
         <h2 v-motion :initial="{ opacity: 0, y: 100 }" :visible-once="{
           opacity: 1,
