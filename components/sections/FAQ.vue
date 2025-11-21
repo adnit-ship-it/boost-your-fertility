@@ -12,7 +12,7 @@
           mass: 1,
           delay: 100,
         },
-      }" class="font-semibold text-[28px] md:text-[32px] lg:text-[36px] text-bodyColor mb-12">
+      }" class="font-medium text-[28px] md:text-[32px] lg:text-[36px] text-bodyColor mb-12">
         {{ faq?.title || 'Frequently Asked Questions' }}
       </h2>
 

@@ -12,7 +12,7 @@
           mass: 1,
           delay: 100,
         },
-      }" class="text-[20px] md:text-[28px] lg:text-[32px] font-semibold text-bodyColor text-center mb-12">
+      }" class="text-[20px] md:text-[28px] lg:text-[32px] font-medium text-bodyColor text-center mb-12">
         {{ beforeAfter?.title || 'Our Customers Results' }}
       </h2>
 

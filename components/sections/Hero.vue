@@ -54,7 +54,7 @@
             delay: 50,
           }
         
-        }" class="text-2xl md:text-3xl lg:text-[48px] font-bold text-bodyColor " style="line-height: 1.2;">
+        }" class="text-2xl md:text-3xl lg:text-[40px] font-medium text-bodyColor whitespace-pre-line" style="line-height: 1.2;">
           {{ hero?.heading || crmStore.getHeroHeading }}
         </h1>
 
@@ -69,7 +69,7 @@
             mass: 1,
             delay: 100,
           },
-        }" class="text-lg md:text-xl lg:text-[34px] text-bodyColor">
+        }" class="text-lg md:text-xl lg:text-[30px] text-bodyColor ">
           {{ hero?.subheading || crmStore.getHeroSubheading }}
         </h2>
 
@@ -89,7 +89,7 @@
           }" class="flex items-center h-[16px] md:h-[26px]">
             <img :src="hero?.media?.bulletIcon?.src || '/assets/images/brand/check.svg'" :alt="hero?.media?.bulletIcon?.alt || 'Checkmark'"
               class="w-[14px] h-[14px] md:w-[26px] md:h-[26px] mr-1 md:mr-3" />
-            <span class="text-[16px] md:text-[20px] lg:text-[24px] font-medium text-black">{{ hero?.bulletPoints.trustedByExperts || 'Trusted by experts' }}</span>
+            <span class="text-[16px] md:text-[20px] lg:text-[20px] font-medium text-black">{{ hero?.bulletPoints.trustedByExperts || 'Trusted by experts' }}</span>
           </li>
           <li v-motion :initial="{ opacity: 0, y: 100 }" :visible-once="{
             opacity: 1,
@@ -105,7 +105,7 @@
           }" class="flex items-center h-[16px] md:h-[26px]">
             <img :src="hero?.media?.bulletIcon?.src || '/assets/images/brand/check.svg'" :alt="hero?.media?.bulletIcon?.alt || 'Checkmark'"
               class="w-[14px] h-[14px] md:w-[26px] md:h-[26px] mr-1 md:mr-3" />
-            <span class="text-[16px] md:text-[20px] lg:text-[24px] font-medium text-black">{{ hero?.bulletPoints.provenResults || 'Proven results' }}</span>
+            <span class="text-[16px] md:text-[20px] lg:text-[20px] font-medium text-black">{{ hero?.bulletPoints.provenResults || 'Proven results' }}</span>
           </li>
           <li v-motion :initial="{ opacity: 0, y: 100 }" :visible-once="{
             opacity: 1,
@@ -121,7 +121,7 @@
           }" class="flex items-center h-[16px] md:h-[26px]">
             <img :src="hero?.media?.bulletIcon?.src || '/assets/images/brand/check.svg'" :alt="hero?.media?.bulletIcon?.alt || 'Checkmark'"
               class="w-[14px] h-[14px] md:w-[26px] md:h-[26px] mr-1 md:mr-3" />
-            <span class="text-[16px] md:text-[20px] lg:text-[24px] font-medium text-black">{{ hero?.bulletPoints.exceptionalCare || 'Exceptional care' }}</span>
+            <span class="text-[16px] md:text-[20px] lg:text-[20px] font-normal text-black">{{ hero?.bulletPoints.exceptionalCare || 'Exceptional care' }}</span>
           </li>
         </ul>
 
@@ -157,7 +157,7 @@
             damping: 25,
             mass: 1,
           },
-        }" :src="hero?.media?.foreground?.src || '/assets/images/brand/hero-img.png'" :alt="hero?.media?.foreground?.alt || 'Hand holding vial'" class="h-full w-auto object-contain" />
+        }" :src="hero?.media?.foreground?.src || '/assets/images/brand/hero-img.png'" :alt="hero?.media?.foreground?.alt || 'Hand holding vial'" class="md:h-[712px] w-auto object-contain" />
       </div>
     </UiSectionContainer>
   </UiSectionWrapper>

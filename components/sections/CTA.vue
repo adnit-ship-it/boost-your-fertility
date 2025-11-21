@@ -19,7 +19,7 @@
               mass: 1,
               delay: 100,
             },
-          }" class="font-semibold text-[20px] md:text-[28px] lg:text-[32px]">
+          }" class="font-medium text-[20px] md:text-[28px] lg:text-[32px]">
             {{ cta?.title || 'Real Results' }}
           </h2>
           <p v-motion :initial="{ opacity: 0, y: 32 }" :visible-once="{

@@ -1,13 +1,13 @@
 <template>
   <footer
-    class="bg-[#E3D5D4] h-[64px] md:h-[77px] flex justify-center pb-4"
+    class="bg-accentColor1 h-[64px] md:h-[85px] flex justify-center pb-4"
   >
     <div
       class="max-w-[1328px] w-full flex items-end justify-between md:justify-center px-4 md:px-8 md:gap-8"
     >
       <div class="flex items-center">
         <NuxtLink to="/">
-          <div class="h-[42px] md:h-[48px] w-auto pb-1">
+          <div class="h-[42px] md:h-[65px] w-auto pb-1">
             <img
               src="/assets/images/brand/logo.png"
               :alt="common?.accessibility?.brandLogo || 'Brand Logo'"
@@ -16,19 +16,19 @@
           </div>
         </NuxtLink>
       </div>
-      <div class="md:block h-[1px] mb-1.5 w-full mx-2 md:mx-5 flex-1 bg-black"></div>
+      <div class="md:block h-[1px] mb-1.5 w-full mx-2 md:mx-5 flex-1 bg-white"></div>
 
       <!-- Navigation buttons on the right -->
       <div class="flex items-center gap-x-2 md:gap-x-6">
         <NuxtLink
           to="/about"
-          class="text-black text-[14px] md:text-[18px] lg:text-[20px] transition-colors duration-200"
+          class="text-white text-[14px] md:text-[18px] lg:text-[20px] transition-colors duration-200"
         >
           {{ common?.navigation?.about || 'About' }}
         </NuxtLink>
         <NuxtLink
           to="/contact"
-          class="text-black text-[14px] md:text-[18px] lg:text-[20px] transition-colors duration-200"
+          class="text-white text-[14px] md:text-[18px] lg:text-[20px] transition-colors duration-200"
         >
           {{ common?.navigation?.contactUs || 'Contact Us' }}
         </NuxtLink>

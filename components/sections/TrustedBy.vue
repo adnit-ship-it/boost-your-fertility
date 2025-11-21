@@ -12,7 +12,7 @@
           mass: 1,
           delay: 100,
         },
-      }" class="pb-[24px] text-[20px] md:text-[28px] lg:text-[32px] font-semibold text-bodyColor text-center">
+      }" class="pb-[24px] text-[20px] md:text-[28px] lg:text-[32px] font-medium text-bodyColor text-center">
         {{ trustedBy?.title || 'Trusted By' }}
       </h2>
     </UiSectionContainer>

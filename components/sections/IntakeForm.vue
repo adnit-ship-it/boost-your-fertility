@@ -13,7 +13,7 @@
                 <div class="h-[10px] w-[10px] md:w-4 md:h-4 lg:h-6 lg:w-6 rounded-full border-[1px] border-gray-400"></div>
             </div>
             <div class="mt-10">
-                <h3 class="text-[20px] md:text-[32px] font-semibold">
+                <h3 class="text-[20px] md:text-[32px] font-medium">
                     Reach your goal weight
                     <span class="text-accentColor1">fast <br />and easy with Boost Your Fertility</span>
                 </h3>
