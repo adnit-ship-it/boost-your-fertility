@@ -1,6 +1,6 @@
 <template>
   <footer
-    class="bg-accentColor1 h-[64px] md:h-[85px] flex justify-center pb-4"
+    class="bg-accentColor1 h-[64px] md:h-[85px] flex justify-center pb-2"
   >
     <div
       class="max-w-[1328px] w-full flex items-end justify-between md:justify-center px-4 md:px-8 md:gap-8"
