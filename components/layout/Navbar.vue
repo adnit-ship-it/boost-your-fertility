@@ -39,9 +39,9 @@
           <NuxtLink to="/contact">
             <p class="text-white text-lg font-medium">{{ common?.navigation?.contact || 'Contact' }}</p>
           </NuxtLink>
-          <NuxtLink to="/products">
+          <!-- <NuxtLink to="/products">
             <p class="text-white text-lg font-medium">{{ common?.navigation?.product || 'Product' }}</p>
-          </NuxtLink>
+          </NuxtLink> -->
         </div>
 
         <!-- Get Started button on right -->
@@ -69,10 +69,10 @@
                 @click="closeMobileMenu">
                 {{ common?.navigation?.contact || 'Contact' }}
               </NuxtLink>
-              <NuxtLink to="/products" class="block px-4 py-2 text-black text-lg font-medium hover:bg-gray-100"
+              <!-- <NuxtLink to="/products" class="block px-4 py-2 text-black text-lg font-medium hover:bg-gray-100"
                 @click="closeMobileMenu">
                 {{ common?.navigation?.product || 'Product' }}
-              </NuxtLink>
+              </NuxtLink> -->
             </div>
           </div>
         </div>

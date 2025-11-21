@@ -11,6 +11,16 @@ const isProduction = process.env.NODE_ENV === "production";
 export default defineNuxtConfig({
   compatibilityDate: "2025-07-15",
   devtools: { enabled: true },
+  
+  app: {
+    head: {
+      title: "Boost Your Fertility",
+      meta: [
+        { charset: "utf-8" },
+        { name: "viewport", content: "width=device-width, initial-scale=1" },
+      ],
+    },
+  },
 
   //  "@supabase/ssr": "^0.7.0",
     // "@supabase/supabase-js": "^2.57.3",

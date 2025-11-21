@@ -22,22 +22,22 @@
       <div class="flex items-center gap-x-2 md:gap-x-6">
         <NuxtLink
           to="/about"
-          class="text-accentColor1 text-[14px] md:text-[18px] lg:text-[20px] transition-colors duration-200"
+          class="text-black text-[14px] md:text-[18px] lg:text-[20px] transition-colors duration-200"
         >
           {{ common?.navigation?.about || 'About' }}
         </NuxtLink>
         <NuxtLink
           to="/contact"
-          class="text-accentColor1 text-[14px] md:text-[18px] lg:text-[20px] transition-colors duration-200"
+          class="text-black text-[14px] md:text-[18px] lg:text-[20px] transition-colors duration-200"
         >
           {{ common?.navigation?.contactUs || 'Contact Us' }}
         </NuxtLink>
-        <NuxtLink
+        <!-- <NuxtLink
           to="/products"
-          class="text-accentColor1 text-[14px] md:text-[18px] lg:text-[20px] transition-colors duration-200"
+          class="text-black text-[14px] md:text-[18px] lg:text-[20px] transition-colors duration-200"
         >
           {{ common?.navigation?.products || 'Products' }}
-        </NuxtLink>
+        </NuxtLink> -->
       </div>
     </div>
     <!-- Logo on the left -->

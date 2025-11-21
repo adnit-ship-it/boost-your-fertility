@@ -2,7 +2,7 @@
   <UiSectionWrapper class="relative text-black pt-24 lg:pt-32 pb-52">
     <!-- Option 2: Top right corner of container (absolute within wrapper) -->
     <div class="subbrand-indicator subbrand-top-right-container">
-      <span class="text-xs md:text-sm ">Brought to you by</span>
+      <span class="text-xs md:text-sm font-normal">Brought to you by</span>
       <img src="/assets/images/Boost-Fertility-pink.png" alt="Boost Fertility logo" class="h-8 md:h-10 w-auto mt-1" />
     </div>
     <!-- Background Image -->
@@ -10,13 +10,6 @@
         backgroundImage: `url('${hero?.media?.background?.src || '/assets/images/brand/hero-bg.png'}')`,
         backgroundPosition: 'bottom right'
       }" />
-
-    <!-- Gradient Overlay -->
-    <!-- <div class="absolute w-full h-[256px] -bottom-[128px] z-[1]" style="
-        background: linear-gradient(to bottom, rgba(98, 98, 98, 0) 0%, rgba(0, 0, 0, 1) 100%);
-      "></div> -->
-
-    <!-- Hand Vial Image - Bottom Right -->
     <div
       class="absolute md:hidden bottom-8 right-0 z-20 h-[222px] flex items-end justify-end md:h-[480px] lg:h-[600px]">
       <img v-motion :initial="{ opacity: 0, y: 100 }" :visible-once="{

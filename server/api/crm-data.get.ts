@@ -73,8 +73,8 @@ export default defineEventHandler(async (event) => {
             secondaryMedicationBodyText 
             secondaryMedicationMainBodyTextColor 
             secondaryMedicationBodyTextColor 
-            productPaymentLabelText 
-            productPaymentLabelTextColor 
+            /* productPaymentLabelText 
+            productPaymentLabelTextColor */ 
             signupSuccessMessageText 
             signupSuccessMessageTextColor 
             paymentSuccessMessageText 
@@ -89,8 +89,8 @@ export default defineEventHandler(async (event) => {
             footerLinksTextColor 
             copyrightTextColor 
             legalLinksTextColor 
-            carouselProductTextColor 
-            productCategoriesColor 
+            /* carouselProductTextColor 
+            productCategoriesColor */ 
             addHomeLinkToHeader 
             homeLinkName 
             showLogos 
@@ -158,7 +158,7 @@ export default defineEventHandler(async (event) => {
               index 
               __typename 
             } 
-            productBundles { 
+            /* productBundles { 
               id 
               name 
               description 
@@ -243,7 +243,7 @@ export default defineEventHandler(async (event) => {
               soldOutModalText 
               soldOutModalColor 
               __typename 
-            } 
+            } */ 
             visiblePromoCodes { 
               name 
               label 

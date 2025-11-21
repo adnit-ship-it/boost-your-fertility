@@ -25,21 +25,18 @@
           <div class="flex flex-col items-center lg:hidden py-10 relative">
             <div class="progress-line absolute top-12 w-[1px] max-h-[224px] bg-accentColor1"
               :style="{ height: progressHeight + 'px' }"></div>
-            <div class="h-2 w-2 md:h-3 md:w-3 rounded-full bg-accentColor1" />
-            <div class="h-[108px] md:h-[152px] w-[1px] md:w-[2px] bg-[#DBD9D9]"></div>
-            <div :class="[
-              'h-2 w-2 md:h-3 md:w-3 rounded-full transition-all duration-300',
-              progress >= dotThresholds[1]
-                ? 'bg-accentColor1 border-0'
-                : 'border-[#DBD9D9] border md:border-2',
-            ]" />
-            <div class="h-[108px] md:h-[152px] w-[1px] md:w-[2px] bg-[#DBD9D9]"></div>
-            <div :class="[
-              'h-2 w-2 md:h-3 md:w-3 rounded-full transition-all duration-300',
-              progress >= dotThresholds[2]
-                ? 'bg-accentColor1 border-0'
-                : 'border-[#DBD9D9] border md:border-2',
-            ]" />
+            <!-- First dot (always active) -->
+            <div v-if="journeyCards.length > 0" class="h-2 w-2 md:h-3 md:w-3 rounded-full bg-accentColor1" />
+            <!-- Dynamic dots and spacing -->
+            <template v-for="(card, index) in journeyCards.slice(1)" :key="`mobile-dot-${index + 1}`">
+              <div class="h-[108px] md:h-[152px] w-[1px] md:w-[2px] bg-[#DBD9D9]"></div>
+              <div :class="[
+                'h-2 w-2 md:h-3 md:w-3 rounded-full transition-all duration-300',
+                progress >= (dotThresholds[index + 1] || 0)
+                  ? 'bg-accentColor1 border-0'
+                  : 'border-[#DBD9D9] border md:border-2',
+              ]" />
+            </template>
           </div>
           <div class="w-full flex flex-col lg:flex-row gap-7 pl-4 flex-wrap justify-center items-center">
             <UiJourneyCard v-motion :initial="{ opacity: 0, y: 8 }" :visible-once="{
@@ -61,9 +58,11 @@
     </UiSectionContainer>
     <div class="hidden lg:flex w-full h-[1px] bg-[#d9d9d9] mt-8  justify-center">
       <UiSectionContainer class="flex flex-row justify-around">
-        <div class="h-2 w-2 rounded-full bg-accentColor1 -mt-[3px]" />
-        <div class="h-2 w-2 rounded-full bg-accentColor1 -mt-[3px]" />
-        <div class="h-2 w-2 rounded-full bg-accentColor1 -mt-[3px]" />
+        <div 
+          v-for="(card, index) in journeyCards" 
+          :key="index"
+          class="h-2 w-2 rounded-full bg-accentColor1 -mt-[3px]" 
+        />
       </UiSectionContainer>
     </div>
     <NuxtLink to="/consultation" class="mt-16">
@@ -99,10 +98,21 @@ const journeyCards = computed(() => {
 const progressHeight = ref(0);
 const progress = ref(0);
 const sectionRef = ref(null);
-const dotThresholds = [0, 0.25, 0.48, 0.71, 0.93]; // Progress thresholds for each dot
+
+// Calculate dot thresholds dynamically based on journeyCards length
+const dotThresholds = computed(() => {
+  const count = journeyCards.value.length;
+  if (count <= 1) return [0];
+  return Array.from({ length: count }, (_, i) => i / (count - 1));
+});
 
 // Tablet-specific values (768px - 1076px)
-const tabletDotThresholds = [0, 0.2, 0.4, 0.6, 0.8]; // Adjusted thresholds for tablet
+const tabletDotThresholds = computed(() => {
+  const count = journeyCards.value.length;
+  if (count <= 1) return [0];
+  // Slightly different distribution for tablet
+  return Array.from({ length: count }, (_, i) => (i / (count - 1)) * 0.95);
+});
 const tabletProgressHeight = 640; // Tablet progress line height
 const mobileProgressHeight = 456; // Mobile progress line height
 
@@ -130,7 +140,7 @@ const updateProgress = () => {
     );
 
     // Use different thresholds based on screen size
-    const currentThresholds = window.innerWidth >= 768 ? tabletDotThresholds : dotThresholds;
+    const currentThresholds = window.innerWidth >= 768 ? tabletDotThresholds.value : dotThresholds.value;
     const currentProgressHeight = window.innerWidth >= 768 ? tabletProgressHeight : mobileProgressHeight;
 
     // Update journey card active states based on progress thresholds
@@ -138,6 +148,8 @@ const updateProgress = () => {
       if (index === 0) return; // First card always active
 
       const threshold = currentThresholds[index];
+      if (threshold === undefined) return; // Safety check
+      
       const wasActive = card.isActive;
       const isNowActive = progress.value >= threshold;
 
