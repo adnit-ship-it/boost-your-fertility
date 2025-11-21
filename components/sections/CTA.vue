@@ -1,5 +1,5 @@
 <template>
-  <UiSectionWrapper class="py-20 md:py-32 relative bg-[#E3D5D4] text-bodyColor">
+  <UiSectionWrapper class="py-20 md:py-32 relative bg-accentColor1/20 text-bodyColor">
     <UiSectionContainer class="flex md:flex-row-reverse pb-8 md:pb-0">
       <div class="absolute bottom-0 right-0 z-20 max-h-[320px] md:max-h-[384px] lg:max-h-[480px] h-[222px] md:h-full">
         <img src="/assets/images/hand-vial.png" alt="cta image"
@@ -94,13 +94,13 @@
                 mass: 1,
                 delay: 300,
               },
-            }" class="flex gap-1 items-center text-[12px] md:text-[20px] lg:text-[24px]">
+            }" class="flex gap-1 items-center text-[12px] md:text-[20px] lg:text-[22px]">
               <img src="/assets/images/brand/check-star.svg" alt="star icon"
                 class="w-[18px] h-[18px] md:w-[24px] md:h-[24px] lg:w-[28px] lg:h-[28px]" />
               <p>{{ cta?.features.freeDelivery || 'Free, Expedited Delivery' }}</p>
             </div>
           </div>
-          <div class="mt-2 lg:mt-9 flex flex-col lg:flex-row gap-2 lg:gap-10">
+          <div class="mt-2 lg:mt-5 flex flex-col lg:flex-row gap-2 lg:gap-10">
             <div v-motion :initial="{ opacity: 0, y: 32 }" :visible-once="{
               opacity: 1,
               y: 0,
@@ -128,13 +128,13 @@
                 mass: 1,
                 delay: 300,
               },
-            }" class="flex gap-1 items-center text-[12px] md:text-[20px] lg:text-[24px]">
+            }" class="flex gap-1 items-center text-[12px] md:text-[20px] lg:text-[22px]">
               <img src="/assets/images/brand/check-star.svg" alt="star icon"
                 class="w-[18px] h-[18px] md:w-[24px] md:h-[24px] lg:w-[28px] lg:h-[28px]" />
               <p>{{ cta?.features.moneyBackGuarantee || 'Money Back Guarantee' }}</p>
             </div>
           </div>
-          <div class="mt-2 lg:mt-9 flex flex-col lg:flex-row gap-2 lg:gap-10">
+          <div class="mt-2 lg:mt-5 flex flex-col lg:flex-row gap-2 lg:gap-10">
             <div v-motion :initial="{ opacity: 0, y: 32 }" :visible-once="{
               opacity: 1,
               y: 0,
@@ -146,7 +146,7 @@
                 mass: 1,
                 delay: 300,
               },
-            }" class="flex gap-1 items-center text-[12px] md:text-[20px] lg:text-[24px]">
+            }" class="flex gap-1 items-center text-[12px] md:text-[20px] lg:text-[22px]">
               <img src="/assets/images/brand/check-star.svg" alt="star icon"
                 class="w-[18px] h-[18px] md:w-[24px] md:h-[24px] lg:w-[28px] lg:h-[28px]" />
               <p>{{ cta?.features.lowCost || 'Low-cost treatments are available.' }}</p>

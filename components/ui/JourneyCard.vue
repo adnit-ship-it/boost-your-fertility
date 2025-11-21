@@ -1,10 +1,10 @@
   <template>
     <div :class="[
-      'h-[88px] relative md:h-[128px] w-[276px] md:w-[500px] transition-all duration-300 lg:h-[176px] lg:w-[352px] flex flex-row lg:flex-col items-start lg:items-center justify-start lg:justify-center gap-5 px-5 py-2 md:py-4 lg:px-0 lg:py-0',
-      isActive ? 'bg-[#E7DFDD]' : 'bg-accentColor2/20 lg:bg-[#E7DFDD]'
+      'h-[88px] relative md:h-[128px] w-[276px] md:w-[500px] transition-all duration-300 lg:h-[176px] lg:w-[352px] flex flex-row lg:flex-col items-start lg:items-center justify-start lg:justify-center gap-5 px-5 py-2 md:py-4 lg:px-4 lg:py-4',
+      isActive ? 'bg-accentColor1/20' : 'bg-accentColor2/20 lg:bg-accentColor1/20'
     ]">
       <img :src="img" :alt="title"
-        class="h-7 w-7 md:w-[44px] md:h-[44px] lg:mt-0 absolute top-2 left-2 md:left-4 journey-icon" />
+        class="h-7 w-7 md:w-[44px] md:h-[44px] lg:mt-2 absolute top-2 left-2 md:left-4 journey-icon" />
       <div class="flex justify-center flex-col gap-0.5 lg:gap-2 pl-8 md:pl-16 lg:pl-2 leading-tight ">
         <h3 class="text-[16px] md:text-[20px] font-semibold text-left lg:text-center">
           {{ title }}

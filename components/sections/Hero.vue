@@ -27,7 +27,7 @@
 
     <!-- Content - Single Column -->
     <UiSectionContainer class="relative z-30 h-full flex justify-between md:gap-10 ">
-      <div class="space-y-2 md:space-y-4 lg:space-y-10 flex flex-col h-full">
+      <div class="space-y-2 md:space-y-4 lg:space-y-6 flex flex-col h-full">
         <div class="w-[192px] md:w-[240px]">
           <img v-motion :initial="{ opacity: 0, y: 100 }" :visible-once="{
             opacity: 1,
@@ -54,9 +54,10 @@
             delay: 50,
           }
         
-        }" class="text-2xl md:text-3xl lg:text-[40px] font-medium text-bodyColor whitespace-pre-line" style="line-height: 1.2;">
+        }" class="text-2xl md:text-3xl lg:text-[40px] font-medium text-bodyColor whitespace-nowrap w-fit" style="line-height: 1.2;">
           {{ hero?.heading || crmStore.getHeroHeading }}
         </h1>
+        <p class="text-lg md:text-xl lg:text-[30px]  text-bodyColor leading-none m-0 p-0  whitespace-nowrap w-fit">Even if You are Struggling with Infertility</p>
 
         <h2 v-motion :initial="{ opacity: 0, y: 100 }" :visible-once="{
           opacity: 1,
