@@ -26,9 +26,9 @@
     </div>
 
     <!-- Content - Single Column -->
-    <UiSectionContainer class="relative z-30 h-full flex justify-between">
+    <UiSectionContainer class="relative z-30 h-full flex justify-between md:gap-10 ">
       <div class="space-y-2 md:space-y-4 lg:space-y-10 flex flex-col h-full">
-        <div class="w-[192px] md:w-[365px]">
+        <div class="w-[192px] md:w-[240px]">
           <img v-motion :initial="{ opacity: 0, y: 100 }" :visible-once="{
             opacity: 1,
             y: 0,
@@ -54,7 +54,7 @@
             delay: 50,
           }
         
-        }" class="text-2xl md:text-3xl lg:text-[48px] font-bold text-bodyColor " style="line-height: 1;">
+        }" class="text-2xl md:text-3xl lg:text-[48px] font-bold text-bodyColor " style="line-height: 1.2;">
           {{ hero?.heading || crmStore.getHeroHeading }}
         </h1>
 

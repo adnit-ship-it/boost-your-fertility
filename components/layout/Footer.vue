@@ -1,22 +1,22 @@
 <template>
   <footer
-    class="bg-[#E3D5D4] h-[64px] md:h-[72px] flex justify-center pb-4"
+    class="bg-[#E3D5D4] h-[64px] md:h-[77px] flex justify-center pb-4"
   >
     <div
       class="max-w-[1328px] w-full flex items-end justify-between md:justify-center px-4 md:px-8 md:gap-8"
     >
       <div class="flex items-center">
         <NuxtLink to="/">
-          <div class="h-[32px] md:h-[40px] pb-1">
+          <div class="h-[42px] md:h-[48px] w-auto pb-1">
             <img
-              src="/assets/images/brand/hero-img.png"
+              src="/assets/images/brand/logo.png"
               :alt="common?.accessibility?.brandLogo || 'Brand Logo'"
               class="h-full w-full"
             />
           </div>
         </NuxtLink>
       </div>
-      <div class="md:block h-[1px] mb-1.5 w-full mx-2 md:mx-5 flex-1 bg-accentColor1"></div>
+      <div class="md:block h-[1px] mb-1.5 w-full mx-2 md:mx-5 flex-1 bg-[#0471F6]"></div>
 
       <!-- Navigation buttons on the right -->
       <div class="flex items-center gap-x-2 md:gap-x-6">

@@ -23,7 +23,7 @@ const banner = computed(() => siteTextStore.getAboutText()?.banner);
                     damping: 25,
                     mass: 1,
                 },
-            }" src="/assets/images/brand/hero-img.png" alt="brand logo"
+            }" src="/assets/images/brand/logo.png" alt="brand logo"
                 class="w-auto h-[48px] md:h-[64px] lg:h-[100px] object-cover mx-auto" />
             <div class="w-full flex flex-col md:flex-row gap-8 lg:gap-20 items-center mt-12 md:mt-6">
                 <div class="flex-1 h-full flex flex-col gap-2 lg:gap-6">

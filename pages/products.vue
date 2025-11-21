@@ -11,7 +11,7 @@
           damping: 25,
           mass: 1,
         },
-      }" src="/assets/images/brand/hero-img.png" alt="brand logo" class="w-auto h-[48px] md:h-[64px] lg:h-[100px] object-cover" />
+      }" src="/assets/images/brand/logo.png" alt="brand logo" class="w-auto h-[48px] md:h-[64px] lg:h-[100px] object-cover" />
       <h1 v-motion :initial="{ opacity: 0, y: 100 }" :visible-once="{
         opacity: 1,
         y: 0,

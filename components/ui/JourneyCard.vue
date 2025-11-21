@@ -5,7 +5,7 @@
   ]">
     <img :src="img" :alt="title"
       class="h-7 w-7 md:w-[44px] md:h-[44px] lg:mt-0 absolute top-2 left-2 md:left-4" />
-    <div class="flex justify-center flex-col gap-0.5 lg:gap-2 pl-8 md:pl-16 lg:pl-2">
+    <div class="flex justify-center flex-col gap-0.5 lg:gap-2 pl-8 md:pl-16 lg:pl-2 leading-tight ">
       <p class="text-[16px] md:text-[20px] font-semibold text-left lg:text-center">
         {{ title }}
       </p>

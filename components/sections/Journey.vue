@@ -23,17 +23,17 @@
         <!-- Content Container -->
         <div class="flex flex-row lg:flex-col gap-8 px-8 lg:px-0 max-w-[1168px] w-full">
           <div class="flex flex-col items-center lg:hidden py-10 relative">
-            <div class="progress-line absolute top-12 w-[1px] max-h-[224px] bg-accentColor1"
+            <div class="progress-line absolute top-12 w-[1px] max-h-[224px] bg-[#0471F6]"
               :style="{ height: progressHeight + 'px' }"></div>
             <!-- First dot (always active) -->
-            <div v-if="journeyCards.length > 0" class="h-2 w-2 md:h-3 md:w-3 rounded-full bg-accentColor1" />
+            <div v-if="journeyCards.length > 0" class="h-2 w-2 md:h-3 md:w-3 rounded-full bg-[#0471F6]" />
             <!-- Dynamic dots and spacing -->
             <template v-for="(card, index) in journeyCards.slice(1)" :key="`mobile-dot-${index + 1}`">
               <div class="h-[108px] md:h-[152px] w-[1px] md:w-[2px] bg-[#DBD9D9]"></div>
               <div :class="[
                 'h-2 w-2 md:h-3 md:w-3 rounded-full transition-all duration-300',
                 progress >= (dotThresholds[index + 1] || 0)
-                  ? 'bg-accentColor1 border-0'
+                  ? 'bg-[#0471F6] border-0'
                   : 'border-[#DBD9D9] border md:border-2',
               ]" />
             </template>

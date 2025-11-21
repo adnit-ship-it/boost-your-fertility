@@ -14,7 +14,7 @@
           damping: 25,
           mass: 1,
         },
-      }" src="/assets/images/brand/hero-img.png" alt="Logo" class="h-[124px] w-auto mb-6" />
+      }" src="/assets/images/brand/logo.png" alt="Logo" class="h-[124px] w-auto mb-6" />
       <p class="text-lg text-gray-600 font-medium">Loading...</p>
     </div>
   </Transition>

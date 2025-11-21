@@ -26,7 +26,7 @@
       <!-- Logo on center-->
       <div class="flex items-center">
         <NuxtLink to="/">
-          <img src="/assets/images/brand/hero-img.png" :alt="common?.accessibility?.brandLogo || 'Brand Logo'" class="w-auto h-[24px] md:h-[28px]" />
+          <img src="/assets/images/brand/logo.png" :alt="common?.accessibility?.brandLogo || 'Brand Logo'" class="w-auto h-[40px] md:h-[40px]" />
         </NuxtLink>
       </div>
       <div class="flex items-center gap-10">
